@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉ số cân nặng</title>
+</head>
+<body>
+<div class="content">
+    <div>
+        <table border="1">
+            <tr>
+                <th>nhap so can nang (kg): </th>
+               <td><input type="text" id="weight"></td>
+            </tr>
+            <tr>
+                <th>nhap chieu cao (m): </th>
+                <td><input type="text" id="height"/> </td>
+            </tr>
+            <tr>
+                <th><button type="button" onclick="get_BMI()">CHECK</button></th>
+                <td><input type="text" id="result" disabled /></td>
+            </tr>
+        </table>
+        <div id="get_result"></div>
+    </div>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
